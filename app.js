@@ -39,7 +39,7 @@
 
   /* ---------- HOME ---------- */
   function home() {
-    var done = A.length, finals = A.filter(isDone).length, finalTotal = A.reduce(function (n, p) { return n + (p.final_positive_5 || []).length; }, 0);
+    var done = A.filter(isDone).length, finals = done, finalTotal = A.reduce(function (n, p) { return n + (p.final_positive_5 || []).length; }, 0);
     var top = ranked().filter(function (r) { return r.rank <= 5; }).slice(0, 8);
     var max = top.length ? top[0].c : 1;
     var maxF = words.length ? freq[words[0]].length : 1;
@@ -62,12 +62,12 @@
 
     app.innerHTML = '<div class="view">' +
       '<section class="hero"><div class="eyebrow">Our Values</div><h1>우리는 무엇을<br>따라 살아가는가</h1>' +
-      '<p class="sub">열 사람의 선택으로 그려낸 서로 다른 삶의 방향</p>' +
+      '<p class="sub">' + P.length + '명의 선택으로 그려낸 서로 다른 삶의 방향</p>' +
       '<div class="stats">' +
       stat(EXPECTED, '명', '참여 인원') + stat(done, '명', '입력 완료', done < EXPECTED ? (EXPECTED - done) + '명 입력 대기' : '') +
       stat(5, '개', '개인 핵심 가치') + stat(finalTotal, '개', '등록된 최종 가치 선택', finals + '명 기준') +
       '</div></section>' +
-      '<section class="block home-people"><div class="sec-head row"><div><h2>우리의 가치관</h2><p>열 사람의 서로 다른 이야기</p></div><a class="more-link" href="#/people">전체 보기 →</a></div><div class="grid people">' + P.map(function (p) { return card(p); }).join('') + '</div><a class="btn wide only-mobile" href="#/people">' + P.length + '명 전체 보기 →</a></section>' +
+      '<section class="block home-people"><div class="sec-head row"><div><h2>우리의 가치관</h2><p>' + P.length + '명의 서로 다른 이야기</p></div><a class="more-link" href="#/people">전체 보기 →</a></div><div class="grid people">' + P.map(function (p) { return card(p); }).join('') + '</div><a class="btn wide only-mobile" href="#/people">' + P.length + '명 전체 보기 →</a></section>' +
       '<section class="block"><div class="sec-head"><h2>가장 많이 선택한 가치 TOP 5</h2><p>최종 가치 5개를 합산한 결과이며, 동률은 같은 순위로 표시합니다.</p></div>' +
       (top.length ? '<div class="bars">' + top.map(function (r) {
         return '<div class="bar"><span class="rank">' + r.rank + '</span><b>' + esc(r.w) + '</b><div class="track"><div class="fill" style="width:' + (r.c / max * 100) + '%"></div></div><span class="meta">' + r.c + '명 / ' + Math.round(r.c / denom * 100) + '%</span></div>';
@@ -137,7 +137,7 @@
       (has(p.preface) ? '<details class="preface"><summary>분석을 읽기 전에</summary><div class="prose">' + paras(p.preface) + '</div></details>' : '') + '</header>' +
 
       '<section class="sec"><div class="label">SECTION 01</div><h2>인생 타이틀</h2>' + (has(p.title_highlight) ? '<p class="highlight">' + esc(p.title_highlight) + '</p>' : '<p class="highlight">' + esc(p.title) + '</p>') +
-      (has(p.title_analysis) ? '<div class="prose">' + paras(p.title_analysis) + '</div>' : pending()) + '</section>' +
+      (has(p.title_analysis) ? '<div class="prose">' + paras(p.title_analysis) + '</div>' : '') + '</section>' +
 
       '<section class="sec"><div class="label">SECTION 02</div><h2>확신의 가치 vs 열망의 가치</h2><div class="two">' +
       '<div class="panel"><h3>확신의 가치</h3><span class="en">CONFIDENT</span>' + tags(p.positive_core_5, function () { return 'big dark'; }) + '</div>' +
