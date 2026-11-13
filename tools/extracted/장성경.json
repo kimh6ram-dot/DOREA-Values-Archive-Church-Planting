@@ -1,0 +1,20 @@
+{
+  "name": "장성경",
+  "final_positive_5": ["확신", "공동체", "믿음", "사명", "신뢰"],
+  "positive_core_5": ["소망", "확신", "믿음", "사명", "행복"],
+  "opposite_choices": ["확신", "신뢰", "사명", "진심", "공동체"],
+  "negative_core_5": ["불확실", "불일치", "무책임", "거짓말", "이기심"],
+  "pairs_explicit": true,
+  "positive_selected_20": [],
+  "partial_mentions": ["소망", "행복", "신뢰", "자유", "탁월함", "성취"],
+  "dropped_positive": [],
+  "evidence": {
+    "final_positive_5": "line 13 (마지막까지 남긴 것: 확신, 믿음, 사명, 신뢰, 공동체), line 171 (선택한 다섯 단어: 확신, 공동체, 믿음, 사명, 신뢰), lines 51, 3",
+    "positive_core_5": "lines 23-33, line 47",
+    "opposite_choices": "lines 35-45",
+    "negative_core_5": "line 69, lines 73-101",
+    "pairs": "lines 73-101 (불확실→확신, 불일치→신뢰, 무책임→사명, 거짓말→진심, 이기심→공동체), 본문 lines 103-111",
+    "partial_mentions": "line 3 (소망, 행복), line 13 (자유, 탁월함, 성취는 일반론 언급이라 불확실), lines 55-57 (신뢰는 처음 20개에 있었으나 3번째 덜어내기에서 제외), line 59 (공동체는 처음 20개에 없었음)"
+  },
+  "notes": "최종 5개는 line 13 과 line 171 에서 순서만 다르고 동일 집합. 최종 5개 중 확신·사명은 core/opposite 양쪽, 믿음은 core, 신뢰·공동체는 opposite 에서 옴; 소망·행복이 최종에서 빠짐(line 51), 진심은 opposite 이나 최종에 없음. 처음 긍정 20개 전체 목록 없음. 덜어낸 가치의 명시적 목록 없음(소망·행복이 core 에서 내려갔다는 서술만; 신뢰는 3번째 덜어내기에서 제외됐다가 재등장). partial_mentions 의 자유·탁월함·성취는 line 13 의 일반적 예시라 본인 선택 여부 불명확."
+}

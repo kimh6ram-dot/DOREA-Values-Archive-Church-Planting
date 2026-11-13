@@ -1,0 +1,22 @@
+{
+  "name": "민혜린",
+  "source_file": "민혜린.txt",
+  "final_positive_5": ["긍휼", "평안", "충실", "사명", "지혜"],
+  "positive_core_5": ["헌신", "신념", "사명", "긍휼", "지혜"],
+  "opposite_choices": ["평안", "명성", "충실", "즐거움", "열심"],
+  "negative_core_5": ["불안", "수치", "배신", "우울", "나태함"],
+  "pairs_explicit": true,
+  "positive_selected_20": [],
+  "partial_mentions": ["헌신", "생명", "비전", "사명", "긍휼", "경청", "온유", "지혜", "평안"],
+  "dropped_positive": ["참됨", "진심", "포용", "성취감", "온유"],
+  "evidence": {
+    "final_positive_5": "lines 11-19 (긍휼, 평안, 충실, 사명, 지혜; line 21 '최종적으로 선택한 다섯 가지 가치'); also lines 189, 193",
+    "positive_core_5": "line 43 (헌신, 신념, 사명, 긍휼, 지혜)",
+    "opposite_choices": "line 53 (불안→평안, 수치→명성, 배신→충실, 우울→즐거움, 나태함→열심)",
+    "negative_core_5": "line 71 (불안, 수치, 배신, 우울, 나태함)",
+    "pairs": "line 53 explicit",
+    "partial_mentions": "line 7 (헌신, 생명, 비전, 사명, 긍휼, 경청, 온유, 지혜), line 59 (평안은 20개에 포함)",
+    "dropped_positive": "line 85 (긍정 15개→10개 단계에서 내려놓은 단어: 참됨, 진심, 포용, 성취감, 온유)"
+  },
+  "notes": "최종 5개 = 확신 중 사명·긍휼·지혜 + 열망 중 평안·충실(line 193); 확신의 헌신·신념은 최종에서 빠짐(line 63). 긍정 20개 전체 목록은 없음(line 7은 '~처럼' 예시 8개이고 평안(59)은 별도 언급, 충실은 20개에 없었음 line 61). dropped_positive는 15→10 단계에서 덜어낸 5개(line 85)이며, 온유는 line 7의 처음 20개에도 포함. 열망 5개 순서는 line 53 서술의 부정 가치 순서와 일치."
+}

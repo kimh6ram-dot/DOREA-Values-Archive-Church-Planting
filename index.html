@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE VALUES ARCHIVE · DOREA MINISTRY</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="nav.css">
+<link rel="stylesheet" href="church.css">
+</head>
+<body>
+<header class="nav" id="nav">
+  <a class="logo" href="#/" aria-label="DOREA MINISTRY 홈"><span class="logo-crop"><img src="assets/LOGO/logo.png" alt="DOREA"></span></a>
+  <button class="nav-toggle" id="nav-toggle" aria-label="메뉴" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+  <nav id="nav-links">
+    <a href="#/" data-route="home">HOME</a>
+    <a href="#/people" data-route="people">PEOPLE</a>
+    <a href="#/compare" data-route="compare">COMPARE</a>
+    <a href="#/church" data-route="church">CHURCH PLANTING</a>
+  </nav>
+</header>
+<div id="sample-note" class="sample-note" hidden>샘플 데이터로 표시 중입니다. <code>data/participants.js</code>를 실제 데이터로 교체하세요.</div>
+<main id="app" tabindex="-1"></main>
+<footer class="foot"><span class="logo-text"><img src="assets/LOGO/logo_text.png" alt="DOREA MINISTRY"></span><p>열 사람의 선택으로 그려낸 서로 다른 삶의 방향</p></footer>
+<script src="data/participants.js"></script>
+<script src="data/churchPlantingData.js"></script>
+<script src="connections.js"></script>
+<script src="church.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

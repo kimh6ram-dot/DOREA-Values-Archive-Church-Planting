@@ -1,0 +1,20 @@
+{
+  "name": "김지영",
+  "source_file": "김지영.txt",
+  "final_positive_5": ["공동체", "감사", "동행", "사랑", "온유"],
+  "positive_core_5": ["감사", "온유", "동행", "사랑", "공동체"],
+  "opposite_choices": ["성찰", "협력", "따스함", "유연성", "공감"],
+  "negative_core_5": ["무의식", "갈등", "냉정함", "고정관념", "무관심"],
+  "pairs_explicit": true,
+  "positive_selected_20": [],
+  "partial_mentions": [],
+  "dropped_positive": [],
+  "evidence": {
+    "final_positive_5": "line 5 (공동체·감사·동행·사랑·온유); also lines 15-17, 137",
+    "positive_core_5": "line 25 (감사·온유·동행·사랑·공동체)",
+    "opposite_choices": "line 29 (성찰·협력·따스함·유연성·공감)",
+    "negative_core_5": "line 39 (무의식·갈등·냉정함·고정관념·무관심)",
+    "pairs": "lines 31, 43, 45, 47, 49, 51 (무의식↔성찰, 갈등↔협력, 냉정함↔따스함, 고정관념↔유연성, 무관심↔공감)"
+  },
+  "notes": "최종 5개(line 5)와 확신 5개(line 25)가 같은 집합(순서만 다름)이며 열망 5개는 최종에 포함되지 않음. 원문 어디에도 긍정 20개 목록·덜어낸 가치 목록 없음(20개 선택에 263초/토글 26회라는 수치만 언급). 쌍은 원문 서술(31, 43-51)로 확인됨; 원문 순서 그대로 인덱스 정렬됨."
+}

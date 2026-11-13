@@ -1,0 +1,416 @@
+{
+  "scenarioId": "dorea-church-v1",
+  "scenarioTitle": "교회 개척 구상도",
+  "description": "참여자들의 핵심 가치를 바탕으로 AI가 재미로 제안한 가상의 교회 개척 시뮬레이션입니다. 모든 역할과 협력 관계는 예시이자 추천안이며, 실제 사역자의 역량이나 소명을 평가한 결과가 아닙니다.",
+  "isProvisional": true,
+  "notice": "이 페이지는 참여자들의 핵심 가치를 바탕으로 상상해 본 가상의 교회 개척 구상도입니다. 모든 역할과 협력 관계는 확정된 사항이 아닙니다.",
+  "axes": [
+    {
+      "id": "vision",
+      "name": "비전과 방향",
+      "summary": "공동체가 어디로 향하는지 함께 고민하고, 사명의 방향을 구체화하는 영역",
+      "icon": "compass",
+      "color": "#856F5A",
+      "participantIds": [
+        "p08",
+        "p02"
+      ]
+    },
+    {
+      "id": "worship",
+      "name": "예배와 영성",
+      "summary": "예배와 말씀을 통해 공동체의 영적 중심을 세우는 영역",
+      "icon": "flame",
+      "color": "#5E7C8A",
+      "participantIds": [
+        "p04"
+      ]
+    },
+    {
+      "id": "care",
+      "name": "돌봄과 연결",
+      "summary": "사람을 환대하고 돌보며, 서로 연결되는 공동체를 만들어가는 영역",
+      "icon": "heart",
+      "color": "#7B8F5E",
+      "participantIds": [
+        "p01",
+        "p03",
+        "p09"
+      ]
+    },
+    {
+      "id": "mission",
+      "name": "선교와 운영",
+      "summary": "복음을 전하고, 교육과 행정으로 공동체의 사역을 뒷받침하는 영역",
+      "icon": "send",
+      "color": "#A0634F",
+      "participantIds": [
+        "p07",
+        "p05",
+        "p06"
+      ]
+    }
+  ],
+  "axesNote": "이 구분은 편의를 위한 가상의 분류이며 실제 팀의 위계나 직책을 의미하지 않습니다.",
+  "participants": [
+    {
+      "participantId": "p08",
+      "axisId": "vision",
+      "role": "담임목회자·개척 리더",
+      "contribution": "교회의 방향과 사명을 제시하고 공동체를 이끄는 역할",
+      "values": [
+        "소망",
+        "확신",
+        "믿음",
+        "사랑",
+        "신뢰",
+        "공동체"
+      ],
+      "rationale": [
+        "비전",
+        "사명",
+        "확신",
+        "방향성"
+      ]
+    },
+    {
+      "participantId": "p02",
+      "axisId": "vision",
+      "role": "비전·전략·기획 책임자",
+      "contribution": "교회의 방향을 구체적인 계획과 실행으로 연결하는 역할",
+      "values": [
+        "방향성",
+        "책임",
+        "순결",
+        "신실",
+        "겸손"
+      ],
+      "rationale": [
+        "방향성",
+        "책임",
+        "신실",
+        "겸손"
+      ]
+    },
+    {
+      "participantId": "p01",
+      "axisId": "care",
+      "role": "공동체 운영 책임자",
+      "contribution": "공동체의 관계와 돌봄을 중심으로 사람들을 연결하는 역할",
+      "values": [
+        "감사",
+        "온유",
+        "동행",
+        "사랑",
+        "공동체"
+      ],
+      "rationale": [
+        "동행",
+        "사랑",
+        "온유"
+      ]
+    },
+    {
+      "participantId": "p05",
+      "axisId": "mission",
+      "role": "행정·운영 책임자",
+      "contribution": "교회의 기초와 질서를 세우고 안정적으로 운영하는 역할",
+      "values": [
+        "사랑",
+        "공동체",
+        "존중",
+        "책임",
+        "진실"
+      ],
+      "rationale": [
+        "책임",
+        "진실",
+        "존중"
+      ]
+    },
+    {
+      "participantId": "p09",
+      "axisId": "care",
+      "role": "새가족·공동체 형성 책임자",
+      "contribution": "다양한 사람을 연결하고 하나 되는 공동체를 만드는 역할",
+      "values": [
+        "사랑",
+        "자유",
+        "포용",
+        "공동체",
+        "성취감"
+      ],
+      "rationale": [
+        "자유",
+        "포용",
+        "공동체"
+      ]
+    },
+    {
+      "participantId": "p04",
+      "axisId": "worship",
+      "role": "예배·영성 책임자",
+      "contribution": "교회의 영적 분위기와 내적 성숙을 세우는 역할",
+      "values": [
+        "믿음",
+        "자긍심",
+        "따스함",
+        "진심",
+        "여유"
+      ],
+      "rationale": [
+        "믿음",
+        "진심",
+        "따스함"
+      ]
+    },
+    {
+      "participantId": "p07",
+      "axisId": "mission",
+      "role": "전도·선교 책임자",
+      "contribution": "복음으로 사람을 살리고 변화와 회복을 이끄는 역할",
+      "values": [
+        "생명",
+        "용서",
+        "믿음",
+        "전심",
+        "사랑"
+      ],
+      "rationale": [
+        "생명",
+        "용서",
+        "사랑"
+      ]
+    },
+    {
+      "participantId": "p03",
+      "axisId": "care",
+      "role": "상담·영적 분별 책임자",
+      "contribution": "공동체의 균형과 깊이를 지키고 어려운 사람을 돕는 역할",
+      "values": [
+        "긍휼",
+        "평안",
+        "충실",
+        "사랑",
+        "지혜"
+      ],
+      "rationale": [
+        "긍휼",
+        "지혜",
+        "평안"
+      ]
+    },
+    {
+      "participantId": "p06",
+      "axisId": "mission",
+      "role": "양육·교육 책임자",
+      "contribution": "사람과 사명을 연결하고 배움과 성장을 이끄는 역할",
+      "values": [
+        "공동체",
+        "사랑",
+        "사명",
+        "깨달음",
+        "정직"
+      ],
+      "rationale": [
+        "깨달음",
+        "사랑",
+        "사명"
+      ]
+    }
+  ],
+  "ministryAreas": [
+    {
+      "id": "m1",
+      "name": "비전과 목회 방향",
+      "axisId": "vision",
+      "recommendedLeaders": [
+        "p08"
+      ],
+      "collaborators": [
+        "p02",
+        "p03",
+        "p07"
+      ]
+    },
+    {
+      "id": "m2",
+      "name": "비전 기획과 사역 실행",
+      "axisId": "vision",
+      "recommendedLeaders": [
+        "p02"
+      ],
+      "collaborators": [
+        "p08",
+        "p05",
+        "p06"
+      ]
+    },
+    {
+      "id": "m3",
+      "name": "말씀과 예배·영성",
+      "axisId": "worship",
+      "recommendedLeaders": [
+        "p04"
+      ],
+      "collaborators": [
+        "p08",
+        "p07",
+        "p06"
+      ]
+    },
+    {
+      "id": "m4",
+      "name": "전도와 선교",
+      "axisId": "mission",
+      "recommendedLeaders": [
+        "p07"
+      ],
+      "collaborators": [
+        "p09",
+        "p01",
+        "p06"
+      ]
+    },
+    {
+      "id": "m5",
+      "name": "목양과 돌봄",
+      "axisId": "care",
+      "recommendedLeaders": [
+        "p01"
+      ],
+      "collaborators": [
+        "p03",
+        "p04",
+        "p06"
+      ]
+    },
+    {
+      "id": "m6",
+      "name": "새가족과 공동체 형성",
+      "axisId": "care",
+      "recommendedLeaders": [
+        "p09"
+      ],
+      "collaborators": [
+        "p01",
+        "p07",
+        "p06"
+      ]
+    },
+    {
+      "id": "m7",
+      "name": "행정과 재정 운영",
+      "axisId": "mission",
+      "recommendedLeaders": [
+        "p05"
+      ],
+      "collaborators": [
+        "p02",
+        "p08"
+      ]
+    },
+    {
+      "id": "m8",
+      "name": "상담과 영적 분별",
+      "axisId": "care",
+      "recommendedLeaders": [
+        "p03"
+      ],
+      "collaborators": [
+        "p04",
+        "p01"
+      ]
+    },
+    {
+      "id": "m9",
+      "name": "양육과 교육",
+      "axisId": "mission",
+      "recommendedLeaders": [
+        "p06"
+      ],
+      "collaborators": [
+        "p04",
+        "p07",
+        "p03"
+      ]
+    }
+  ],
+  "collaborationPrinciples": {
+    "title": "서로 다른 강점이 하나의 공동체가 될 때",
+    "groups": [
+      {
+        "id": "g1",
+        "title": "방향을 세우는 사람들",
+        "members": [
+          {
+            "participantId": "p08",
+            "text": "교회가 어디로 가야 하는지, 무엇을 위해 존재하는지 방향과 사명을 제시합니다."
+          },
+          {
+            "participantId": "p02",
+            "text": "그 비전을 구체적인 계획과 사역으로 연결하고 실행을 돕습니다."
+          }
+        ]
+      },
+      {
+        "id": "g2",
+        "title": "교회의 영성과 사람을 세우는 사람들",
+        "members": [
+          {
+            "participantId": "p04",
+            "text": "예배와 영성을 통해 교회의 내적 중심을 세웁니다."
+          },
+          {
+            "participantId": "p06",
+            "text": "말씀과 교육, 양육을 통해 성도들의 성장과 공동체 문화를 돕습니다."
+          }
+        ]
+      },
+      {
+        "id": "g3",
+        "title": "사람을 돌보고 연결하는 사람들",
+        "members": [
+          {
+            "participantId": "p01",
+            "text": "성도들의 삶을 살피고 함께 걸으며 목양합니다."
+          },
+          {
+            "participantId": "p03",
+            "text": "어려움을 겪는 사람들을 상담하고 공동체의 영적 균형을 돕습니다."
+          },
+          {
+            "participantId": "p09",
+            "text": "새로운 사람들을 환대하고 서로 연결하여 공동체를 형성합니다."
+          }
+        ]
+      },
+      {
+        "id": "g4",
+        "title": "교회의 사역을 확장하고 뒷받침하는 사람들",
+        "members": [
+          {
+            "participantId": "p07",
+            "text": "복음을 전하고 선교와 회복 사역을 통해 사람들을 세웁니다."
+          },
+          {
+            "participantId": "p05",
+            "text": "행정과 운영, 조직의 질서를 세워 모든 사역이 안정적으로 이루어지도록 돕습니다."
+          }
+        ]
+      }
+    ],
+    "closing": "한 사람에게 모든 책임이 집중되지 않고, 서로 다른 강점을 가진 사람들이 각자의 자리에서 함께 교회를 세워가는 모습.",
+    "note": "교회의 실제 방향과 직책은 공동체가 함께 기도하고 대화하며 결정해야 합니다."
+  },
+  "priorityOrder": [
+    "p08",
+    "p03",
+    "p09",
+    "p11",
+    "p01",
+    "p05",
+    "p02",
+    "p10"
+  ]
+}

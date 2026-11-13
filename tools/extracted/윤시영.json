@@ -1,0 +1,20 @@
+{
+  "name": "윤시영",
+  "final_positive_5": ["생명", "용서", "믿음", "전심", "사랑"],
+  "positive_core_5": ["사랑", "헌신", "생명", "믿음", "용서"],
+  "opposite_choices": ["평안", "기다림", "시도", "전심", "관심"],
+  "negative_core_5": ["불안", "조급함", "회피", "나태함", "무관심"],
+  "pairs_explicit": true,
+  "positive_selected_20": [],
+  "partial_mentions": ["사랑", "헌신", "희망", "비전", "평안", "믿음", "용서"],
+  "dropped_positive": [],
+  "evidence": {
+    "final_positive_5": "line 19 (본문), lines 51-63 (최종적으로 남긴 가치 목록)",
+    "positive_core_5": "lines 37-47 (Positive Core 5), line 65",
+    "opposite_choices": "lines 75-85 (Opposite Choices 5), line 91",
+    "negative_core_5": "line 113, 소제목 lines 117/129/141/155/169",
+    "pairs": "lines 91, 117, 129, 141, 155, 169 (불안→평안, 조급함→기다림, 회피→시도, 나태함→전심, 무관심→관심)",
+    "partial_mentions": "line 5 (처음 선택한 가치 일부 예시: 사랑, 헌신, 희망, 비전, 평안, 믿음, 용서)"
+  },
+  "notes": "처음 선택한 긍정 20개 전체 목록은 원문에 없음(line 5 에 일부만 '~처럼'으로 예시). 덜어낸 가치의 명시적 목록 없음(헌신이 최종에서 빠졌다는 언급만: lines 21, 69). final_positive_5 의 '전심'은 opposite_choices 의 '전심'(나태함의 반대)과 겹침. final 의 생명·용서·믿음·사랑은 positive_core_5 와 겹치고 헌신만 빠져 전심이 들어옴."
+}
