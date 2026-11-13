@@ -8,3 +8,9 @@
 3. `node tools/build-data.js` → `data/participants.js` 재생성. 순서를 바꾸려면 `tools/order.json`(이름 배열) 추가.
 
 `final_positive_5` 가 비어 있으면 카드에는 값이 표시되지 않고 "입력 완료"에 집계되지 않습니다.
+
+## 추가 참여자 2명
+이시온과 서재현의 상세 분석 원문 및 구조화 값은 각각 `data/profile-ision.js`, `data/profile-seojaehyun.js`에서 관리합니다.
+`index.html`이 `data/participants.js` 다음에 이 두 파일을 로드하여 기존 이름만 등록된 항목(p10, p11)을 완성합니다.
+`tools/build-data.js`로 기존 9명 데이터를 다시 생성하더라도 이 추가 파일은 유지됩니다.
+참여자 수와 최종 가치 통계는 실제 로드된 데이터에서 계산됩니다.
